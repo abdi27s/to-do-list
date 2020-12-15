@@ -8,11 +8,12 @@
 </head>
 <body>
     <div id="notes">
-        <textarea name="notesEntry" id="" cols="30" rows="10" ></textarea> <br>
-        <button id="save" type="submit" onclick="alerts();" >SAVE</button>
-
+        <textarea name="notesEntry" id="notesEntry" placeholder="Write down your notes..." ></textarea> <br>
+        <button id="save" type="submit" onclick="saveNotes()" >Save Note</button>
     </div>
 
-    <script src="../js/index.js"></script>
+    <div id="savednotes"></div>
+
+    <script src="./js/index.js"></script>
 </body>
 </html>
